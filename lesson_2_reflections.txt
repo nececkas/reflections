@@ -34,3 +34,12 @@ the experimental feature or new version separate from the orignal version,
 while allowing progress to continue being made on the original
 version (i.e. fixing bugs, adding new features to the master
 branch.)
+
+How do diagrams help you visualize the branch structure?
+
+Diagrams make each branch appear as visually distinct from
+other branches.  That way, it's easy to determine which commits
+are reachable on each branch.  It's also a good way to understand
+why commits made in the detached head state would be unreachable,
+at least without creating a new branch or remembering the exact
+commit id.
