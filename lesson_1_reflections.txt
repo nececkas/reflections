@@ -1,0 +1,57 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It showed me the lines that were added and subtracted.
+For lines that were changed, these were shown as both added and subtracted.
+The -1,5 means file 1, starting on 1st line, showing five lines
+The +1,5 means file 2, starting on 1st line, showing five lines
+- denotes lines deleted from file 1
++ denotes lines which were added
+
+How could having easy access to the entire history of a file
+make you a more efficient programmer in the long term?
+
+I could more quickly identify mistakes.
+I could more quickly recover from mistakes.
+I could be more confident deleting things rather than commenting out.
+
+What do you think are the pros and cons of manually choosing when to
+create a commit, like you do in Gig, vs having versions automatically saved,
+like Google Docs does?
+
+Con: I might be forgetful and not commit frequently enough.
+Con: I need to think about when to save, which may be distracting.
+Pro: It's easier to understand and search the commit history.
+Pro: I need to think about when to save, which forces me to think about
+what I am working on within the context of the project as a whole.
+
+Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat each file
+separately?
+
+The type of files used in Git are typically for writing code.  Many code
+files will need to reference other files within a repository/directory
+to function correctly.  Therefore, it makes sense to track files together.
+In contrast, something like a Google Doc will typically be self-contained.
+Each Google Doc should work by itself, without having to call or reference
+another file.  Therefore, it makes sense that Google Docs saves each file
+by itself.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log shows me all the commits that have taken place.  I can
+then use the ids from 2 commits I want to compare more closely,
+then use git diff to view the exact changes made between the two files.
+
+How might version control make you more confident to make changes
+that could break something?
+
+If I break something, I can easily go back to a working version.
+More than that, I can easily isolate the change that broke the
+system and thus learn why the system broke.  There's no reason not
+to get creative.
+
+Now that you have your workspace set up, what do you want to try using
+Git for?
+
+I want to try using Git to build the bikeshare app.  More generally, I want
+to use it for all my schemes.
