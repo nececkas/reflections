@@ -3,3 +3,22 @@ When would you want to use a remote repository rather than keeping all your work
 -I would create a remote repository when I was working on a project with other people.
 I might also create a remote repository if I wanted another copy of my work online in
 case my computer was broken or lost.
+
+Why might you want to always pull changes manually rather than having 
+to automatically stay up to date with your remote repository?
+
+-I might want to work on my own thing for awhile, without having
+to worry about what other people in the repository are working on.
+
+
+Describe the differences between forks, clones, and branches.
+When would you use one instead of another?
+
+-A fork moves one repository on github to another repository on github.
+A clone copies a repository from one location to another, when at least
+one of those locations is a local computer. A branch creates a separate
+part within one repository. I would use a fork to make changes to someone
+else's repository on github if I wanted my changes to also be on github.
+I would use clone to copy a repository from github to my local machine.
+I would use branch to experiment with a new feature or code design within
+a repository on my machine. 
