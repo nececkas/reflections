@@ -22,3 +22,15 @@ else's repository on github if I wanted my changes to also be on github.
 I would use clone to copy a repository from github to my local machine.
 I would use branch to experiment with a new feature or code design within
 a repository on my machine. 
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+-I can work on code in the local repository while people work on code in the
+github repository, and I can easily check whether the code reflects later.
+This might be important if I am working offline.  It might also be important
+if I am working on a project that I don't have access to.  I'm still working
+this out from lesson 2.
+
+
+
