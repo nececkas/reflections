@@ -32,5 +32,10 @@ This might be important if I am working offline.  It might also be important
 if I am working on a project that I don't have access to.  I'm still working
 this out from lesson 2.
 
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+
+-I guess I would email files.  It would be sooooo much harder.
+
 
 
